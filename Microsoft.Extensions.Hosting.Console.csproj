@@ -11,6 +11,7 @@
     <Description>Enables Dependency Injection (DI) for Console applications using the HostBuilder model and Startup.cs. Boiler plate for quickly creating console or batch services, ready to host on Kubernetes, or container based computation.
 
 Suitable for Microsoft.Extensions.Hosting inclusion.</Description>
+    <PackageProjectUrl>https://github.com/cloudfy/Microsoft.Extensions.Hosting.Console/</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
