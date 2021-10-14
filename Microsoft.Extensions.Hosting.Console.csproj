@@ -5,13 +5,15 @@
     <PackageId>NetCoreHostingConsole</PackageId>
     <Authors>Microsoft</Authors>
     <Company>Microsoft</Company>
-    <AssemblyVersion>5.0.10.14</AssemblyVersion>
-    <FileVersion>5.0.10.14</FileVersion>
-    <Version>5.0.10.14</Version>
+    <AssemblyVersion>5.0.10.15</AssemblyVersion>
+    <FileVersion>5.0.10.15</FileVersion>
+    <Version>5.0.10.15</Version>
     <Description>Enables Dependency Injection (DI) for Console applications using the HostBuilder model and Startup.cs. Boiler plate for quickly creating console or batch services, ready to host on Kubernetes, or container based computation.
 
 Suitable for Microsoft.Extensions.Hosting inclusion.</Description>
     <PackageProjectUrl>https://github.com/cloudfy/Microsoft.Extensions.Hosting.Console/</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/cloudfy/Microsoft.Extensions.Hosting.Console/tree/master</RepositoryUrl>
+    <PackageTags>console, hosting, dependency-injection</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
