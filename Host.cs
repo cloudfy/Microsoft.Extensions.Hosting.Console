@@ -59,7 +59,10 @@ namespace Microsoft.Extensions.Hosting.Console
         //     to log to the console and debug output, and enable IIS integration.
         public static IHostBuilder CreateDefaultBuilder(string[] args)
         {
-            string environment = Environment.GetEnvironmentVariable("NETCORE_ENVIRONMENT");
+            string environment = 
+                Environment.GetEnvironmentVariable("NETCORE_ENVIRONMENT") ??
+                Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT");
+
             string applicationName = Environment.GetEnvironmentVariable("APPLICATION_NAME");
 
             var host = new HostBuilder()
